@@ -217,12 +217,10 @@ bool checkString (const char* string) {
 int main(int argc, char **argv) {
 
     bool given_dir = false;
-    bool given_flag = false;
 
     for (int i = 1; i < argc; ++i) {
         if (argv [i][0] == '-') {
-            given_flag = true;
-
+            
             if (given_dir) {
                 printf ("./UnixLs: Commands have to come before directories names.\n");
                 return -1;
@@ -239,6 +237,7 @@ int main(int argc, char **argv) {
     }
 
     commandLS(argc, argv);
+    printf ("\n");
 }
 
 
