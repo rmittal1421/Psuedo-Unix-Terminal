@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ass4.dir/UnixLs.c.o CMakeFiles/ass4.dir/commands.c.o  -o ass4 

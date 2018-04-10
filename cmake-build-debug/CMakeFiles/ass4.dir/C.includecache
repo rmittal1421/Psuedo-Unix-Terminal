@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rmittal/Desktop/MY_SFU/CMPT300/ass4/UnixLs.c
+stdio.h
+-
+getopt.h
+-
+commands.h
+/Users/rmittal/Desktop/MY_SFU/CMPT300/ass4/commands.h
+
+/Users/rmittal/Desktop/MY_SFU/CMPT300/ass4/commands.c
+dirent.h
+-
+commands.h
+/Users/rmittal/Desktop/MY_SFU/CMPT300/ass4/commands.h
+
+/Users/rmittal/Desktop/MY_SFU/CMPT300/ass4/commands.h
+stdbool.h
+-
+sys/types.h
+-
+dirent.h
+-
+sys/stat.h
+-
+time.h
+-
+stdio.h
+-
+stdlib.h
+-
+

@@ -1,0 +1,3 @@
+/Users/rmittal/Desktop/MY_SFU/CMPT300/ass4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/rmittal/Desktop/MY_SFU/CMPT300/ass4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rmittal/Desktop/MY_SFU/CMPT300/ass4/cmake-build-debug/CMakeFiles/ass4.dir
