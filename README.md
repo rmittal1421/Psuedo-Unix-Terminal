@@ -7,7 +7,7 @@ This project emulates the unix shell command 'ls'. It implements the following v
 - -i
 - -l
 - -R
-
+There are other commands supported by the application as well. The combinations of all the above commondas will also work similar to how a normal shell works. Order of the commands can be changed and these commands are case insensitive.
 These work in exactly the same way as it would in a unix terminal. For instance:
 - ls -l: List in long format (see below). A total sum of all file sizes is output on a line before the long listing. Output is one entry per line.
 - ls -i: For each file, print its inode number.
@@ -20,6 +20,10 @@ Please follow the steps below to run the application:
 - Compile the application using: `make` (MakeFile is included in the application)
 - Run the application using './a.out' and this would trigger the application.
 - Now, you can use the pseudo-terminal (application runtime) as a normal terminal to run the described variations of `ls` command.
+
+# Technical Information
+
+The application is written in C language and if you want the use the shell, it can be done by cloning the repository since the MakeFile will take care about the buid of the application.
 
 # Contributing to the Application
 
