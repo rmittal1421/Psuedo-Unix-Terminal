@@ -1,4 +1,4 @@
-# CMPT300- Password for each pdf page - caprica
+# Password for each pdf page - caprica
 
 
 # Pseudo-Unix-Terminal
